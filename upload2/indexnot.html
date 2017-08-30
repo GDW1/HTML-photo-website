@@ -1,0 +1,175 @@
+<!doctype>
+<html>
+  <head>
+    <title>Guy's Photosite</title>
+    <link rel="icon" href="http://icons.iconarchive.com/icons/pelfusion/long-shadow-media/512/Camera-icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style media="screen">
+      body{
+        background-color: rgb(200, 200, 200);
+      }
+      h1{
+        text-align: center;
+        text-rendering: auto;
+        position: absolute;
+        top: 50px;
+        text-align: center;
+        left: 400px;
+      }
+      #left-link{
+         position: relative;
+         left: 90px;
+         top: 15px;
+      }
+      #right-link{
+        position: relative;
+        left: 90px;
+        top:15px;
+      }
+      #right-link:hover , #left-link:hover{
+        background-color:rgb(204, 0, 204);
+      }
+      .top-links{
+        background-color: grey;
+        height:50px;
+        width: 1530px;
+        position: relative;
+        bottom: 10px;
+        right: 20px;
+      }
+      .links{
+        color: black;
+      }
+      #florida{
+        width: 300px;
+        position: relative;
+        top: 90px;
+        left: 100px;
+        border: 10px ridge rgb(45, 44, 43);
+      }
+      #cap1{
+        position: absolute;
+        top: 320px;
+        left: 170px;
+        color: black;
+        background-color: white;
+        text-decoration: underline;
+      }
+      #cal{
+        position: relative;
+        bottom: 110px;
+        left: 600px;
+        width: 280px;
+        border: 10px ridge rgb(45, 44, 43);
+      }
+      #cap2{
+        position: absolute;
+        top: 320px;
+        left: 700px;
+        color: black;
+        background-color: white;
+        text-decoration: underline;
+        width: 200px;
+      }
+      #header1{
+        text-align: center;
+        text-rendering: auto;
+        position: absolute;
+        top: 100px;
+        text-align: center;
+        left: 535px;}
+      #header2{
+        text-align: center;
+        text-rendering: auto;
+        position: absolute;
+        top: 400px;
+        text-align: center;
+        left: 535px;
+        }
+        #dog{
+          position: relative;
+          bottom: 15px;
+          left: 600px;
+          width: 280px;
+          border: 10px ridge rgb(45, 44, 43);
+        }
+        #cap3{
+          position: absolute;
+          top: 660px;
+          left: 700px;
+          color: black;
+          background-color: white;
+          text-decoration: underline;
+        }
+        #homepageDes{
+          position: absolute;
+          left: 980px;
+          height:350px;
+          width: 150px;
+          background-color: grey;
+          margin:10px;
+          padding: 10px;
+        }
+        #bird{
+          width: 300px;
+          position: absolute;
+          top: 490px;
+          left: 100px;
+          border: 10px ridge rgb(45, 44, 43);
+        }
+        #cap4{
+          position: relative;
+          bottom: 80px;
+          left: 120px;
+          color: black;
+          background-color: white;
+          text-decoration: underline;
+          width: 150;
+        }
+        #fireworks{
+          width: 250px;
+          position: absolute;
+          top: 505px;
+          left: 1100px;
+          border: 10px ridge rgb(45, 44, 43);
+        }
+        #cap5{
+          position: relative;
+          bottom: 110px;
+          left: 1120px;
+          color: black;
+          background-color: white;
+          text-decoration: underline;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="top-links"> <a class="links" href="//insert link to about page//" id="left-link"></a>
+    <a class="links" href="photo.html"  id="right-link">All photos</a> </div>
+    <div><h1><strong>Welcome to Guy's Phototsite</strong></h1></div>
+    <div id="homepageDes">
+      <p>This is the site's homepage, where you can get to any picture I have taken on the website in almost no time. I hope you enjoy all the pictures you see! I created this website from scratch using html code, which you can see by using inspect element.</p>
+    </div>
+    <div><h2 id="header1"><strong>Places</strong></h2></div>
+    <div><a href="florida.html"><figure><img src="http://i.imgur.com/gwaMhlf.jpg" alt="A Bird" id="florida"></a>
+    <figcaption><strong id="cap1">Pictures Taken in Florida</strong></figcaption></figure><div>
+    <div><a href="california.html"><figure><img src="http://i.imgur.com/2Z5QSle.jpg" alt="flowers" id="cal"></a>
+    <figcaption id="cap2"><strong>Pictures Taken in California</strong></figcaption></figure>
+    <h2 id="header2"><strong>Types</strong></h2></div>
+    <div><a href="dog.html"><figure><img src="http://i.imgur.com/575xLcv.jpg" alt"Cute Dog" id="dog"></a>
+    <figcaption id="cap3"><strong>Pictures of Dogs</strong></figcaption></div>
+    <div><a href="flower.html"><figure><img src="http://i.imgur.com/tXMfY9d.jpg" alt="flowers in the dark" id="bird"></a>
+    <figcaption id="cap4"><strong>Pictures of flowers</strong></figcaption></figure></div>
+    <div><a href="fireworks.html"><figure><img src="http://i.imgur.com/eWint0k.jpg" alt="Fireworks on the Fourth of July" id="fireworks"></a>
+    <strong id = "cap5">Pictures of fireworks</strong></figure></div>
+    <script type="text/javascript">
+      </script>
+      <script src="sketch.js"></script>
+      <script type="text/javascript">
+      </script>
+  </body>
+</html>

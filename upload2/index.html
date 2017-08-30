@@ -1,0 +1,251 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>Guy's Photosite</title>
+    <link rel="icon" href="http://icons.iconarchive.com/icons/pelfusion/long-shadow-media/512/Camera-icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style media="screen">
+      body{
+        background-color: rgb(200, 200, 200);
+      }
+      h1{
+        text-align: center;
+        text-rendering: auto;
+        position: absolute;
+        top: 50px;
+        text-align: center;
+        left: 400px;
+      }
+      #left-link{
+         position: relative;
+         left: 90px;
+         margin-bottom: 35px;
+      }
+      #right-link{
+        position: absolute;
+        left: 90px;
+        bottom:15px;
+      }
+      #right-link:hover , #left-link:hover{
+        background-color:rgb(204, 0, 204);
+      }
+      .top-links{
+        background-color: grey;
+        height:50px;
+        width: 1530px;
+        position: relative;
+        bottom: 10px;
+        right: 20px;
+      }
+      .links{
+        color: black;
+      }
+      #florida{
+        width: 300px;
+        position: relative;
+        top: 90px;
+        left: 100px;
+        border: 10px ridge rgb(45, 44, 43);
+      }
+      #cap1{
+        position: absolute;
+        top: 320px;
+        left: 170px;
+        color: black;
+        background-color: white;
+        text-decoration: underline;
+      }
+      #cal{
+        position: relative;
+        bottom: 110px;
+        left: 600px;
+        width: 280px;
+        border: 10px ridge rgb(45, 44, 43);
+      }
+      #cap2{
+        position: absolute;
+        top: 320px;
+        left: 700px;
+        color: black;
+        background-color: white;
+        text-decoration: underline;
+        width: 200px;
+      }
+      #header1{
+        text-align: center;
+        text-rendering: auto;
+        position: absolute;
+        top: 100px;
+        text-align: center;
+        left: 535px;}
+      #header2{
+        text-align: center;
+        text-rendering: auto;
+        position: absolute;
+        top: 400px;
+        text-align: center;
+        left: 535px;
+        }
+        #dog{
+          position: relative;
+          bottom: 15px;
+          left: 600px;
+          width: 280px;
+          border: 10px ridge rgb(45, 44, 43);
+        }
+        #cap3{
+          position: absolute;
+          top: 660px;
+          left: 700px;
+          color: black;
+          background-color: white;
+          text-decoration: underline;
+        }
+        #homepageDes{
+          position: absolute;
+          left: 1325px;
+          height:350px;
+          width: 150px;
+          background-color: grey;
+          margin:10px;
+          padding: 10px;
+        }
+        #bird{
+          width: 300px;
+          position: absolute;
+          top: 490px;
+          left: 100px;
+          border: 10px ridge rgb(45, 44, 43);
+        }
+        #cap4{
+          position: relative;
+          bottom: 80px;
+          left: 120px;
+          color: black;
+          background-color: white;
+          text-decoration: underline;
+          width: 150;
+        }
+        #fireworks{
+          width: 250px;
+          position: absolute;
+          top: 505px;
+          left: 1100px;
+          border: 10px ridge rgb(45, 44, 43);
+        }
+        #cap5{
+          position: relative;
+          bottom: 110px;
+          left: 1120px;
+          color: black;
+          background-color: white;
+          text-decoration: underline;
+        }
+        #hawaii{
+          width: 250px;
+          position: absolute;
+          top: 185px;
+          left: 1025px;
+          border: 10px ridge rgb(45, 44, 43);
+        }
+        input[type=text] {
+          width: 130px;
+          box-sizing: border-box;
+          border: 2px solid #ccc;
+          border-radius: 4px;
+          font-size: 16px;
+          background-color: white;
+          background-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-512.png');
+          background-position: 10px 10px;
+          background-repeat: no-repeat;
+          padding: 12px 20px 12px 40px;
+          -webkit-transition: width 0.4s ease-in-out;
+          transition: width 0.4s ease-in-out;
+          margin-left: 800px;
+        }
+        #cap6{
+          position: relative;
+          bottom: 475px;
+          left: 1050px;
+          color: black;
+          background-color: white;
+          text-decoration: underline;
+        }
+        input[type=text]:focus {
+          width: 40%;
+        }
+    </style>
+  </head>
+  <body>
+    <script>
+    </script>
+    <div class="top-links">
+      <form return = 'returnselector();' method= "get" action='javascript:searchbar();' target="_self" >
+        <input type="text" name="search" placeholder="Search..." id="search" class='input' autocomplete="off">
+        <input type="submit" value = 'send'>
+      </form>
+    <a class="links" href="photo.html"  id="right-link">All photos</a> </div>
+    <div><h1><strong>Welcome to Guy's Phototsite</strong></h1></div>
+    <div id="homepageDes">
+      <p>This is the site's homepage, where you can get to any picture I have taken on the website in almost no time. I hope you enjoy all the pictures you see! I created this website from scratch using html code, which you can see by using inspect element.</p>
+    </div>
+    <div><h2 id="header1"><strong>Places</strong></h2></div>
+    <div><a href="florida.html"><figure><img src="http://i.imgur.com/gwaMhlf.jpg" alt="A Bird" id="florida"></a>
+    <figcaption><strong id="cap1">Pictures Taken in Florida</strong></figcaption></figure></div>
+    <div><a href="california.html"><figure><img src="http://i.imgur.com/2Z5QSle.jpg" alt="flowers" id="cal"></a>
+    <figcaption id="cap2"><strong>Pictures Taken in California</strong></figcaption></figure>
+    <h2 id="header2"><strong>Types</strong></h2></div>
+    <div><a href="dog.html"><figure><img src="http://i.imgur.com/575xLcv.jpg" alt"Cute Dog" id="dog"></a>
+    <figcaption id="cap3"><strong>Pictures of Dogs</strong></figcaption></div>
+    <div><a href="flower.html"><figure><img src="http://i.imgur.com/tXMfY9d.jpg" alt="flowers in the dark" id="bird"></a>
+    <figcaption id="cap4"><strong>Pictures of flowers</strong></figcaption></figure></div>
+    <div><a href="fireworks.html"><figure><img src="http://i.imgur.com/eWint0k.jpg" alt="Fireworks on the Fourth of July" id="fireworks"></a>
+    <strong id = "cap5">Pictures of fireworks</strong></figure></div>
+    <div><a href="hawaii.html"><figure><img src="http://i.imgur.com/Lr6xuVN.jpg" alt="picture of Hawaii" id="hawaii"></a>
+    <strong id = "cap6">Pictures in Hawaii</strong></figure></div>
+    <script>
+      function searchbar(){
+        var string = document.getElementById('search').value;
+        var string = string.toLowerCase();
+        if(string === 'bird'){
+          window.location='birds.html';
+          console.log('recieved bird');
+        }else if(string == 'dog'){
+          window.location='dog.html';
+          console.log('recieved dog');
+        }else if(string == 'animal' || string == 'animals'){
+          window.location='animal.html';
+          console.log('recieved animal');
+        }else if (string.length === 0){
+            alert('search something');
+            console.log("Nothing searched");
+        }else if(string == 'gecko'){
+          console.log('recieved gecko');
+          window.location='https://insertlink.com';
+        }else if(string=='sunset'|| string=='sun'){
+          console.log('recieved sunset');
+          window.location='https://insertlink.com';
+        }else if(string == 'nature'){
+          console.log('recieved nature');
+          window.location='https://insertlink.com';
+        }else if (string == 'flower' || string == 'flowers') {
+         console.log('recieved flower');
+         window.location='https://insertlink.com';
+       }else if (string == 'architecture') {
+          console.log('recieved architecture');
+          window.location='https://insertlink.com';
+        }else if (string == 'landscapes' || string=='landscape') {
+          console.log('recieved landscapes');
+          window.location='https://insertlink.com';
+        }else{
+            alert("No pictures of "+ string+ " is currently not available. For a list of available search terms, go to http://guyd3400.bitballoon.com/searchTerm");
+            console.log("recieved but doesn't work");
+      };
+    };
+      function returnselector(){
+        return true;
+      };
+
+    </script>
+  </body>
+</html>
